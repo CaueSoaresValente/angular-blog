@@ -1,0 +1,20 @@
+baixar o node LTS
+
+baixar a extensões: Angular Language Service, Auto Close Tag, Auto Rename Tag, Aura Theme e ESlint (serve para criar regras de boas práticas para typscript e javscript) no VSCode
+
+Baixar o angular: npm install -g @angular/cli
+
+Criar um projeto angular: ng new life-cycle
+✔ Do you want to create a 'zoneless' application without zone.js (Developer Preview)? No
+✔ Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
+✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+
+Criar um componente: ng generate component nomedocomponente
+
+Diretivas - é a maneira como o angular manipula e altera a DOM dinâmicamente
+
+Diretivas de atributo - Alteram a aparência ou comportamento de um elemento, componente ou toutra diretiva. Ex: NgClass - Adiciona ou remove conjunto de classes CSS. NgStyle - Adiciona ou remove um conjunto de estilos ao HTML. NgModel - Adciona vinculação de dados bidirecional a um elementyo de um formulário.
+
+Diretivas Estruturais - Moldam ou remodelam a estrutura da DOM, adicionando ou removendo elementos na tela. EX: NgIf - Condicional que verifica se o modelo deve ser visualizado ou não. NgFor - Repete um elemento para cada item em uma lista. NgSwitch - utilizado para alternar entre comportamentos alternativos
+
+Hooks - Em Angular, "hooks" referem-se aos Ganchos do Ciclo de Vida (LifeCycle Hooks), que são métodos especiais fornecidos pelo framework que permitem ao desenvolvedor "enganchar" seu código em diferentes estágios do ciclo de vida de um componente ou diretiva, oferecendo controlo sobre o seu comportamento.  
