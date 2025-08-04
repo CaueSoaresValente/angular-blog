@@ -1,0 +1,9 @@
+.div_menu:hover{
+    background-color: gray;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    transition: ease-in-out all 600ms;
+    
+}
+
