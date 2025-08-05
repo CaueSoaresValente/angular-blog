@@ -1,9 +1,9 @@
-<div style="border: solid white 2px; width: 400px; display: flex; margin: 0px 10px 0px 10px; height: 120px;">
+<div style="border: solid white 2px; width: 400px; display: flex; margin: 0px 10px 0px 10px; height: auto;">
     <div>
-        <img height="100%" src="{{fotosmallCard}}" alt="">
+        <img height="100px" src="{{fotosmallCard}}" alt="">
     </div>
     <div style="margin-left: 10px;">
-        <h1 style="font-size: 18px; margin-top: 3px;"><a style="text-decoration: none; text-transform: capitalize;" href="#">{{titlesmallCard}}</a></h1>
-            <p style="font-size: small; color: gray; margin-top: 5px;">{{descriptionsmallCard}}</p>
+        <h1 style="font-size: 18px; margin-top: 3px;"><a [routerLink]="['content', id]" style="text-decoration: none; text-transform: capitalize;" >{{titlesmallCard}}</a></h1>
+            <p style="font-size: small; color: gray; margin-top: 5px; word-break: break-all">{{descriptionsmallCard}}</p>
     </div>
 </div>

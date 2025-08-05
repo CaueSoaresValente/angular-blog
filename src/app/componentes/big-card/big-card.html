@@ -3,7 +3,7 @@
         <img src="{{fotoBigCard}}" alt="Hernán Crepo, técnico do São Paulo Futebol Clube" height="250px">
     </div>
     <div class="big-card__title" style="margin-top: 10px; padding-left: 20px;">
-        <a href="#" style="text-decoration: none;"><h1 style="font-size: 20px;">{{titleBigCard}}</h1></a>
+        <a [routerLink]="['content', id]" style="text-decoration: none;"><h1 style="font-size: 20px;">{{titleBigCard}}</h1></a>
     </div>
     <div class="big-card__description" style="margin-top: 13px; padding-right: 25px; padding-left: 20px;">
         <p style="color: gray; text-align: justify;  ">{{descriptionBigCard}}</p>

@@ -4,7 +4,7 @@ baixar a extensões: Angular Language Service, Auto Close Tag, Auto Rename Tag, 
 
 Baixar o angular: npm install -g @angular/cli
 
-Criar um projeto angular: ng new life-cycle
+Criar um projeto angular: ng new projeto
 ✔ Do you want to create a 'zoneless' application without zone.js (Developer Preview)? No
 ✔ Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
 ✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
