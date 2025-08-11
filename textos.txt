@@ -18,3 +18,17 @@ Diretivas de atributo - Alteram a aparência ou comportamento de um elemento, co
 Diretivas Estruturais - Moldam ou remodelam a estrutura da DOM, adicionando ou removendo elementos na tela. EX: NgIf - Condicional que verifica se o modelo deve ser visualizado ou não. NgFor - Repete um elemento para cada item em uma lista. NgSwitch - utilizado para alternar entre comportamentos alternativos
 
 Hooks - Em Angular, "hooks" referem-se aos Ganchos do Ciclo de Vida (LifeCycle Hooks), que são métodos especiais fornecidos pelo framework que permitem ao desenvolvedor "enganchar" seu código em diferentes estágios do ciclo de vida de um componente ou diretiva, oferecendo controlo sobre o seu comportamento.  
+
+.filter() é um método de array que cria um novo array contendo apenas os elementos que passam num teste (a função que você fornece). Ele não altera dadosFake, só retorna outro array.
+
+ParamMap = é um tipo especial que o Angular usa para guardar os parâmetros da rota.
+Ele tem todos os parâmetros definidos no seu path (os :algumaCoisa), mas você não acessa eles como num objeto normal, e sim com métodos como:
+.get('nomeDoParametro') → pega o valor de um parâmetro.
+.has('nomeDoParametro') → verifica se existe o parâmetro.
+.keys → lista todas as chaves de parâmetros.
+ParamMap {
+  id: "10",
+  category: "books"
+}
+
+Uma função de callback é uma função que você passa como argumento para outra função para que ela seja chamada em algum momento depois.
